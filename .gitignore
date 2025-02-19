@@ -3,3 +3,4 @@ Model/Vosk/
 scripts/__pycache__
 scripts/Audio.py
 piper/espeak-ng-data
+output/
