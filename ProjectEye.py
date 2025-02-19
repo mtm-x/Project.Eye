@@ -16,8 +16,10 @@ class Projecteye():
         try:
             query = q.mainSTT()
             print("Query:", query)
-            if query == "":
-                print("No query detected")
+        
+            if "help" in query:
+                e = Email()
+                e.send_email()
                 return
         except:
             print("Error: No query detected")
