@@ -1,0 +1,4 @@
+moondream
+vosk
+pillow
+pyaudio
