@@ -47,8 +47,6 @@ class Projecteye():
             print("Error: No caption detected")
             return
 
-if __name__ == "__main__":
-    eye = Projecteye()
-    eye.tts()
+
 
 

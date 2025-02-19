@@ -1,5 +1,6 @@
 import json
 import pyaudio
+import os
 from vosk import Model, KaldiRecognizer
 
 
@@ -19,7 +20,7 @@ class Audiostt:
                         rate=16000,
                         input=True,
                         frames_per_buffer=4000)
-
+        
         print("🎤 Speak now...")
         
         for _ in range(0, int(16000 / 4000 * duration)):  # Capture audio for 'duration' seconds
@@ -35,7 +36,8 @@ class Audiostt:
         return result.get("text", "")
 
     # Get Transcription
-    def mainSTT(self):
+    def mainSTT(self,):
+        print("🎤 Listening...")
         text = self.speech_to_text(duration=10)
         print("\n📝 Transcription:", text)
         return text
