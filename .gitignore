@@ -2,3 +2,4 @@ Model/moondream_vlm/moondream-0_5b-int8.mf.gz
 Model/Vosk/
 scripts/__pycache__
 scripts/Audio.py
+piper/espeak-ng-data
