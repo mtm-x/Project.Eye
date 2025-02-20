@@ -4,3 +4,4 @@ scripts/__pycache__
 piper/espeak-ng-data
 output/
 __pycache__/
+text.py
