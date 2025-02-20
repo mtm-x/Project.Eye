@@ -1,11 +1,14 @@
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+import os
+
+password = os.getenv("EMAIL_PASSWORD")
 
 class Email:
     def __init__(self):
         self.from_email =  "maha.thamarai.m@gmail.com"  
-        self.password = ""  
+        self.password = password
         self.to_email = "mahasel.1969@gmail.com" 
     
     def send_email(self):
