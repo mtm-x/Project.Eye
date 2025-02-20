@@ -3,7 +3,7 @@ import time
 from scripts import *
 
 def main():
-    eye = Projecteye()  # Initialize once and reuse
+    eye = Projecteye()  
     e = Email()
 
     while True:
