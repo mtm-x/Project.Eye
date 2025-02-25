@@ -3,7 +3,7 @@
 ## Dependencies 
 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 - Used moondream VLM 0.5b parameters 
